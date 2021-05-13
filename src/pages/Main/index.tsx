@@ -1,12 +1,8 @@
 import React from 'react';
 import { MaterialIcons } from '@expo/vector-icons';
-
 import { Animated } from 'react-native';
 import { PanGestureHandler, State } from 'react-native-gesture-handler';
-
-import Header from '../../components/Header';
-import Tabs from '../../components/Tabs';
-import Menu from '../../components/Menu';
+import { Header, Menu, Tabs } from '../../components/index';
 
 import {
     Container,
